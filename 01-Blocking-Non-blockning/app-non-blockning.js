@@ -1,4 +1,4 @@
-let { getUsuarioSync} =require('./usuarios/usuarios');
+let { getUsuario } = require('./usuarios/usuario');
 
 console.log('Inicio de programa');
 
