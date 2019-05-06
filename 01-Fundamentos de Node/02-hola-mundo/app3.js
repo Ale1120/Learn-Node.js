@@ -1,17 +1,17 @@
 console.log('Inicio del Programa')
 
 // callback
-setTime( function() {
+setTimeout( function() {
     console.log('Primer Timeout')
 }, 3000 );
 
 
-setTime( function() {
+setTimeout( function() {
     console.log('Segundo Timeout')
 }, 0 );
 
 
-setTime( function() {
+setTimeout( function() {
     console.log('Tercer Timeout')
 }, 0 );
 
