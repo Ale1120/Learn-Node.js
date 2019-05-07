@@ -15,3 +15,9 @@ if (true){
 }
 
 console.log(nombre1);
+
+
+for (var i = 0; i < =5; i++) {
+  console.log('i: ${ i }');
+}
+console.log(i);
