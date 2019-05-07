@@ -16,8 +16,12 @@ if (true){
 
 console.log(nombre1);
 
-
-for (var i = 0; i < =5; i++) {
-  console.log('i: ${ i }');
+// es global por decirlo de una manera
+for (var i = 0; i <=5; i++) {
+  console.log(`i: ${ i } con var`);
 }
-console.log(i);
+
+// vive dentro del for nada mas
+for (let i = 0; i <=5; i++) {
+  console.log(`i: ${ i } con let ` );
+}
